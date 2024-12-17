@@ -162,6 +162,9 @@ if (! $mysql_compat || ! $php_compat) {
     die("Requirements Not Met.\n" . $compat);
 }
 
+echo WP_CONTENT_DIR;
+echo "\n";
+
 echo " -> Setting up wp-content...\n";
 
 if (!file_exists(WP_CONTENT_DIR)) {
