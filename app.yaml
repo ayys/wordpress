@@ -5,4 +5,4 @@ capabilities:
     engine: mysql
 volumes:
   - name: wp-content
-    mount: /app/wp-content
+    mount: /wp-content/
