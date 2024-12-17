@@ -171,6 +171,8 @@ if (!file_exists(WP_CONTENT_DIR)) {
     echo "    Creating wp-content dir\n";
     mkdir(WP_CONTENT_DIR);
 }
+
+echo get_theme_root();
 if (!file_exists(get_theme_root() . '/twentytwentyfour')) {
     echo "    Setting up theme\n";
     mkdir(get_theme_root(). '/twentytwentyfour', 0777, true);
