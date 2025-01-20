@@ -11,7 +11,7 @@ scaling:
   mode: single_concurrency
 jobs:
 - name: wp-cron
-  trigger: '*/15 * * * *'
+  trigger: '* * * * *'
   action:
     execute:
       package: php/php
